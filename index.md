@@ -6,7 +6,7 @@ layout: default
 
 ## Daywise
 
-| Day | **Topic**                             | _Tasks_                                            | Link |
+| **Day** | **Topic**                             | **Tasks**                                            | **Links** |
 |:----|:----------------------------------|:-------------------------------------------------|:----------|
 | 01  | **PostgreSQL and Redis basics**   | _Setting up PostgreSQL and Redis and their basics_ |
 
