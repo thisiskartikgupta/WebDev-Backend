@@ -4,11 +4,11 @@ layout: default
 
 * * *
 
-> ## Daywise
+## Daywise
 
-| Day | Topic                             | Tasks                                            | Link |
+| Day | **Topic**                             | _Tasks_                                            | Link |
 |:----|:----------------------------------|:-------------------------------------------------|:----------|
-| 01  | **PostgreSQL and Redis basics**   | Setting up PostgreSQL and Redis and their basics |
+| 01  | **PostgreSQL and Redis basics**   | _Setting up PostgreSQL and Redis and their basics_ |
 
 * * *
 
