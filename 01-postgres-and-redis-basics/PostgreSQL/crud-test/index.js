@@ -19,14 +19,6 @@ const pool = new Pool({
   port: 5432,
 });
 
-// server": "localhost",
-//             "port": 5432,
-//             "driver": "PostgreSQL",
-//             "name": "postgres-dev0",
-//             "database": "test",
-//             "username": "postgres",
-//             "password": "14844841"
-
 const getUsers = (request, response) => {
     pool.query('SELECT * FROM test ORDER BY id ASC', (error, results) => {
       if (error) {
