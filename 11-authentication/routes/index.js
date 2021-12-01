@@ -1,4 +1,5 @@
 var express = require('express');
+const registerController = require('../controllers/registerController');
 var router = express.Router();
 
 let signupChecks = require("../middlewares/signupChecks");
@@ -17,8 +18,6 @@ router.get('/', function(req, res, next) {
  * hashing in password
  * converting email to lowercase, trimming spaces etc
  */
-router.post('/signup', (req, res) => {
-
-});
+router.post('/signup', signupChecks, registerController);
 
 module.exports = router;
